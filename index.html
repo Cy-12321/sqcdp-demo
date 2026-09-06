@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SQCDP · 现场问题工单闭环系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app" class="app"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:40px;text-align:center;">请启用 JavaScript 后使用本演示。</p></noscript>
+
+  <!-- 地基层：数据与状态机（只读引用，禁止改动） -->
+  <script src="data-core.js"></script>
+  <script src="ticket-flow.js"></script>
+  <!-- UI 层 -->
+  <script src="app.js"></script>
+</body>
+</html>
