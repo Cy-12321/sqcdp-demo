@@ -1,0 +1,9 @@
+# 纯原生 JS demo，防御性忽略（万一后续 worker 引入依赖/日志）
+node_modules/
+*.log
+.tmp/
+.DS_Store
+
+# 本地环境覆盖（二期接企微/后端时可能出现）
+.env
+.env.local
